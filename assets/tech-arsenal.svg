@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Tech Arsenal and Kernel Modules">
+  <defs>
+    <pattern id="crt3" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" fill-opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="370" rx="10" fill="#020804"/>
+
+  <!-- Section Header -->
+  <text x="28" y="34" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="bold" fill="#00FF41" letter-spacing="2">
+    02 // TECH_ARSENAL &amp; KERNEL_MODULES
+  </text>
+  <line x1="28" y1="46" x2="1172" y2="46" stroke="#00FF41" stroke-opacity="0.35" stroke-width="1"/>
+
+  <!-- Card 1: Core Languages -->
+  <rect x="28" y="64" width="560" height="136" rx="8" fill="#041208" stroke="#00FF41" stroke-opacity="0.45" stroke-width="1.2"/>
+  <text x="48" y="92" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="bold" fill="#00FF41">[01] CORE_LANGUAGES</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#D1FAE5">
+    <text x="48" y="122">C (Systems / SDL2)</text>
+    <rect x="240" y="111" width="320" height="10" rx="3" fill="#020804" stroke="#008F11"/>
+    <rect x="240" y="111" width="285" height="10" rx="3" fill="#00FF41"/>
+
+    <text x="48" y="146">Python (Win32 / Auto)</text>
+    <rect x="240" y="135" width="320" height="10" rx="3" fill="#020804" stroke="#008F11"/>
+    <rect x="240" y="135" width="295" height="10" rx="3" fill="#00FF41"/>
+
+    <text x="48" y="170">Dart / Flutter</text>
+    <rect x="240" y="159" width="320" height="10" rx="3" fill="#020804" stroke="#008F11"/>
+    <rect x="240" y="159" width="290" height="10" rx="3" fill="#00FF41"/>
+
+    <text x="48" y="190">SQL (Postgres / SQLite)</text>
+    <rect x="240" y="180" width="320" height="10" rx="3" fill="#020804" stroke="#008F11"/>
+    <rect x="240" y="180" width="280" height="10" rx="3" fill="#00FF41"/>
+  </g>
+
+  <!-- Card 2: Low-Level & Systems -->
+  <rect x="612" y="64" width="560" height="136" rx="8" fill="#041208" stroke="#00FF41" stroke-opacity="0.45" stroke-width="1.2"/>
+  <text x="632" y="92" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="bold" fill="#00FF41">[02] SYSTEMS &amp; LOW-LEVEL_HOOKS</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="12.5" fill="#7CFFB2">
+    <rect x="632" y="108" width="164" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="644" y="127">Win32 API / Hooks</text>
+
+    <rect x="808" y="108" width="168" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="820" y="127">timeBeginPeriod(1)</text>
+
+    <rect x="988" y="108" width="164" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="1000" y="127">Linux / POSIX</text>
+
+    <rect x="632" y="148" width="164" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="644" y="167">SDL2 Engine Dev</text>
+
+    <rect x="808" y="148" width="168" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="820" y="167">Memory Management</text>
+
+    <rect x="988" y="148" width="164" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="1000" y="167">Sub-ms Timers</text>
+  </g>
+
+  <!-- Card 3: Offline-First & Backend -->
+  <rect x="28" y="216" width="560" height="132" rx="8" fill="#041208" stroke="#00FF41" stroke-opacity="0.45" stroke-width="1.2"/>
+  <text x="48" y="244" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="bold" fill="#00FF41">[03] OFFLINE-FIRST &amp; DATA_SECURITY</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="12.5" fill="#7CFFB2">
+    <rect x="48" y="260" width="162" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="60" y="279">SQLite Write Queue</text>
+
+    <rect x="222" y="260" width="166" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="234" y="279">Supabase Backend</text>
+
+    <rect x="400" y="260" width="168" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="412" y="279">PostgreSQL RLS</text>
+
+    <rect x="48" y="300" width="162" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="60" y="319">Delta Sync Engine</text>
+
+    <rect x="222" y="300" width="166" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="234" y="319">SECURITY DEFINER</text>
+
+    <rect x="400" y="300" width="168" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="412" y="319">40+ Auto Tests</text>
+  </g>
+
+  <!-- Card 4: Frameworks, AI & Tooling -->
+  <rect x="612" y="216" width="560" height="132" rx="8" fill="#041208" stroke="#00FF41" stroke-opacity="0.45" stroke-width="1.2"/>
+  <text x="632" y="244" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="bold" fill="#00FF41">[04] FRAMEWORKS, AI &amp; TOOLING</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="12.5" fill="#7CFFB2">
+    <rect x="632" y="260" width="164" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="644" y="279">Flutter Mobile</text>
+
+    <rect x="808" y="260" width="168" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="820" y="279">CustomTkinter UI</text>
+
+    <rect x="988" y="260" width="164" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="1000" y="279">Git &amp; GitHub</text>
+
+    <rect x="632" y="300" width="164" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="644" y="319">LLMs &amp; RAG</text>
+
+    <rect x="808" y="300" width="168" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="820" y="319">Prompt Engineering</text>
+
+    <rect x="988" y="300" width="164" height="28" rx="4" fill="#031A0A" stroke="#00FF41" stroke-opacity="0.5"/>
+    <text x="1000" y="319">DSA &amp; Arch.</text>
+  </g>
+
+  <rect width="1200" height="370" rx="10" fill="url(#crt3)"/>
+</svg>

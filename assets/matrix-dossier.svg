@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Operator Dossier and System Specs">
+  <defs>
+    <pattern id="crt2" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" fill-opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="330" rx="10" fill="#020804"/>
+
+  <!-- Section Header -->
+  <text x="28" y="34" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="bold" fill="#00FF41" letter-spacing="2">
+    01 // OPERATOR_DOSSIER &amp; NEURAL_PROFILE
+  </text>
+  <line x1="28" y1="46" x2="1172" y2="46" stroke="#00FF41" stroke-opacity="0.35" stroke-width="1"/>
+
+  <!-- Left Panel: Operator Philosophy -->
+  <rect x="28" y="64" width="560" height="244" rx="8" fill="#041208" stroke="#00FF41" stroke-opacity="0.45" stroke-width="1.2"/>
+  <path d="M 28 84 L 28 64 L 48 64" fill="none" stroke="#00FF41" stroke-width="2.2"/>
+  <text x="48" y="94" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="bold" fill="#00FF41" letter-spacing="1.5">
+    &gt; cat /etc/whoami.txt
+  </text>
+  <line x1="48" y1="106" x2="568" y2="106" stroke="#00FF41" stroke-opacity="0.2" stroke-width="1"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="13.5" fill="#D1FAE5">
+    <text x="48" y="136">Software Engineering student at <tspan fill="#00FF41" font-weight="bold">ESPRIT</tspan> passionate about</text>
+    <text x="48" y="158"><tspan fill="#7CFFB2">systems programming</tspan>, <tspan fill="#7CFFB2">offline-first architectures</tspan>, and</text>
+    <text x="48" y="180">intelligent software.</text>
+
+    <text x="48" y="216">I bridge low-level engineering (<tspan fill="#00FF41">C, Win32 API, Linux</tspan>) with</text>
+    <text x="48" y="238">modern product development (<tspan fill="#00FF41">Flutter, Supabase, Python</tspan>).</text>
+
+    <text x="48" y="274" fill="#7CFFB2">&gt; "Rather than just learning syntax, I focus on</text>
+    <text x="48" y="294" fill="#7CFFB2">   building resilient software from the ground up."</text>
+  </g>
+
+  <!-- Right Panel: System Telemetry -->
+  <rect x="612" y="64" width="560" height="244" rx="8" fill="#041208" stroke="#00FF41" stroke-opacity="0.45" stroke-width="1.2"/>
+  <path d="M 1152 64 L 1172 64 L 1172 84" fill="none" stroke="#00FF41" stroke-width="2.2"/>
+  <text x="632" y="94" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="bold" fill="#00FF41" letter-spacing="1.5">
+    &gt; uname -a // SYSTEM_TELEMETRY
+  </text>
+  <line x1="632" y1="106" x2="1152" y2="106" stroke="#00FF41" stroke-opacity="0.2" stroke-width="1"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="13.5">
+    <text x="632" y="136" fill="#008F11">OPERATOR    :</text>
+    <text x="765" y="136" fill="#E6FFED" font-weight="bold">Mohamed Amine El Euch</text>
+
+    <text x="632" y="164" fill="#008F11">LOCATION    :</text>
+    <text x="765" y="164" fill="#D1FAE5">Tunis, Tunisia</text>
+
+    <text x="632" y="192" fill="#008F11">INSTITUTE   :</text>
+    <text x="765" y="192" fill="#D1FAE5">ESPRIT — Engineer's Degree, IT</text>
+
+    <text x="632" y="220" fill="#008F11">IEEE_NODE   :</text>
+    <text x="765" y="220" fill="#D1FAE5">Active Member (LLMs · RAG · Prompts)</text>
+
+    <text x="632" y="248" fill="#008F11">NLP_CERT    :</text>
+    <text x="765" y="248" fill="#D1FAE5">International Level 4 Certified</text>
+
+    <text x="632" y="276" fill="#008F11">UPLINK_MAIL :</text>
+    <text x="765" y="276" fill="#00FF41">mohamedamine.eleuch@gmail.com</text>
+  </g>
+
+  <rect width="1200" height="330" rx="10" fill="url(#crt2)"/>
+</svg>

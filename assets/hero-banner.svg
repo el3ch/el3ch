@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Mohamed Amine El Euch — Matrix Hero Banner">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#010502"/>
+      <stop offset="50%" stop-color="#020B05"/>
+      <stop offset="100%" stop-color="#041509"/>
+    </linearGradient>
+    <linearGradient id="edgeGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#003B00" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#00FF41" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#003B00" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="neon" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00FF41" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <pattern id="crt" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" fill-opacity="0.24"/>
+    </pattern>
+  </defs>
+
+  <!-- Base & Grid -->
+  <rect width="1200" height="320" rx="12" fill="url(#heroBg)"/>
+  <rect width="1200" height="320" rx="12" fill="url(#grid)"/>
+
+  <!-- Animated Matrix Digital Rain -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#00FF41">
+    <text x="32" y="0" opacity="0.22">0 1 0 1 1 0 0 1 0 1 1 0 1 0 1 1<animate attributeName="y" values="-120;340" dur="6.2s" repeatCount="indefinite"/></text>
+    <text x="86" y="0" opacity="0.14">A 3 F 0 9 C 1 E 7 B 4 2 D 8 0 F<animate attributeName="y" values="-180;340" dur="8.4s" repeatCount="indefinite"/></text>
+    <text x="148" y="0" opacity="0.24">1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 1<animate attributeName="y" values="-70;340" dur="5.6s" repeatCount="indefinite"/></text>
+    <text x="220" y="0" opacity="0.12">0 0 1 1 0 1 0 1 1 0 0 1 0 1 1 0<animate attributeName="y" values="-150;340" dur="7.9s" repeatCount="indefinite"/></text>
+    <text x="305" y="0" opacity="0.16">7 F 2 A 0 1 C 9 4 E 8 B 3 5 D 1<animate attributeName="y" values="-90;340" dur="6.8s" repeatCount="indefinite"/></text>
+    <text x="410" y="0" opacity="0.10">1 1 0 0 1 0 1 0 1 1 0 1 0 0 1 1<animate attributeName="y" values="-200;340" dur="9.2s" repeatCount="indefinite"/></text>
+    <text x="530" y="0" opacity="0.12">E 1 3 C H 0 1 0 1 1 0 0 1 1 0 1<animate attributeName="y" values="-110;340" dur="7.1s" repeatCount="indefinite"/></text>
+    <text x="650" y="0" opacity="0.14">0 1 1 0 1 0 0 1 1 0 1 0 1 1 0 0<animate attributeName="y" values="-170;340" dur="8.6s" repeatCount="indefinite"/></text>
+    <text x="770" y="0" opacity="0.15">9 A 4 F 0 1 B 7 E 2 C 8 5 D 3 0<animate attributeName="y" values="-60;340" dur="6.0s" repeatCount="indefinite"/></text>
+    <text x="890" y="0" opacity="0.18">1 0 0 1 1 0 1 0 0 1 1 0 1 0 1 1<animate attributeName="y" values="-140;340" dur="7.5s" repeatCount="indefinite"/></text>
+    <text x="995" y="0" opacity="0.22">F F 4 1 0 0 8 F 1 1 0 3 B 0 A 9<animate attributeName="y" values="-80;340" dur="5.9s" repeatCount="indefinite"/></text>
+    <text x="1085" y="0" opacity="0.16">0 1 0 1 1 0 1 0 1 0 0 1 1 0 0 1<animate attributeName="y" values="-190;340" dur="8.1s" repeatCount="indefinite"/></text>
+    <text x="1152" y="0" opacity="0.26">1 0 1 0 1 1 0 0 1 1 0 1 0 1 1 0<animate attributeName="y" values="-100;340" dur="6.4s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- Central HUD Panel -->
+  <rect x="24" y="20" width="1152" height="280" rx="10" fill="#020904" fill-opacity="0.86" stroke="#00FF41" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <!-- Corner HUD Brackets -->
+  <path d="M 24 46 L 24 20 L 50 20" fill="none" stroke="#00FF41" stroke-width="2.5"/>
+  <path d="M 1150 20 L 1176 20 L 1176 46" fill="none" stroke="#00FF41" stroke-width="2.5"/>
+  <path d="M 24 274 L 24 300 L 50 300" fill="none" stroke="#00FF41" stroke-width="2.5"/>
+  <path d="M 1150 300 L 1176 300 L 1176 274" fill="none" stroke="#00FF41" stroke-width="2.5"/>
+
+  <!-- Top Telemetry Bar -->
+  <rect x="24" y="20" width="1152" height="36" rx="10" fill="#051A0B" fill-opacity="0.9"/>
+  <line x1="24" y1="56" x2="1176" y2="56" stroke="url(#edgeGlow)" stroke-width="1.2"/>
+  <circle cx="48" cy="38" r="5" fill="#00FF41"/>
+  <circle cx="66" cy="38" r="5" fill="#008F11"/>
+  <circle cx="84" cy="38" r="5" fill="#003B00" stroke="#00FF41" stroke-opacity="0.6"/>
+  <text x="108" y="43" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00FF41" opacity="0.9" letter-spacing="1">
+    SYS.BOOT // ZION_MAINFRAME v4.0 — root@el3ch:~
+  </text>
+  <circle cx="965" cy="38" r="4.5" fill="#00FF41">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="978" y="43" font-family="Consolas, 'Courier New', monospace" font-size="12.5" fill="#7CFFB2" letter-spacing="1">
+    NODE: TUNIS_TN // ONLINE
+  </text>
+
+  <!-- Main Identity -->
+  <text x="64" y="102" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#008F11" letter-spacing="2">
+    &gt; WAKE UP, NEO... FOLLOW THE WHITE RABBIT.
+  </text>
+
+  <text x="64" y="162" font-family="Consolas, 'Courier New', monospace" font-size="48" font-weight="bold" fill="#00FF41" filter="url(#neon)" letter-spacing="2.5">
+    MOHAMED AMINE EL EUCH
+  </text>
+
+  <text x="64" y="202" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#A7F3D0" letter-spacing="1">
+    SOFTWARE ENGINEERING STUDENT @ ESPRIT  //  SYSTEMS &amp; OFFLINE-FIRST ARCHITECT
+  </text>
+
+  <!-- Bottom Telemetry Pills -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00FF41">
+    <rect x="64" y="232" width="188" height="32" rx="5" fill="#041E0B" stroke="#00FF41" stroke-opacity="0.6"/>
+    <text x="80" y="253">HANDLE: @el3ch</text>
+
+    <rect x="268" y="232" width="224" height="32" rx="5" fill="#041E0B" stroke="#00FF41" stroke-opacity="0.6"/>
+    <text x="284" y="253">ESPRIT IT (2025-2030)</text>
+
+    <rect x="508" y="232" width="176" height="32" rx="5" fill="#041E0B" stroke="#00FF41" stroke-opacity="0.6"/>
+    <text x="524" y="253">IEEE_MEMBER</text>
+
+    <rect x="700" y="232" width="184" height="32" rx="5" fill="#041E0B" stroke="#00FF41" stroke-opacity="0.6"/>
+    <text x="716" y="253">NLP_CERT: LV.4</text>
+
+    <rect x="900" y="232" width="212" height="32" rx="5" fill="#00FF41" fill-opacity="0.14" stroke="#00FF41" stroke-opacity="0.9"/>
+    <text x="916" y="253" font-weight="bold">OPEN: INTERNSHIPS</text>
+  </g>
+
+  <!-- Blinking Terminal Cursor -->
+  <rect x="1126" y="238" width="12" height="20" fill="#00FF41">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- CRT Scanlines -->
+  <rect width="1200" height="320" rx="12" fill="url(#crt)"/>
+</svg>

@@ -1,102 +1,22 @@
 <div align="center">
-  <img src="assets/matrix-banner.svg" alt="Mohamed Amine El Euch — Matrix Terminal Banner" width="100%" />
-</div>
+<img src="./assets/hero-banner.svg" alt="Mohamed Amine El Euch — Matrix Mainframe Banner" width="100%"/><br/>
+<a href="https://github.com/el3ch"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2600&pause=800&color=00FF41&background=020804&center=true&vCenter=true&width=1200&height=56&lines=%3E+WAKE+UP%2C+NEO...;OPERATOR+%2F%2F+SYSTEMS+%26+OFFLINE-FIRST+ARCHITECT;BUILDING+FLUTTER+%E2%80%A2+SUPABASE+%E2%80%A2+WIN32+%E2%80%A2+C%2FSDL2;WELCOME+TO+EL3CH%27S+ZION+MAINFRAME" alt="Matrix Typing Banner" width="100%"/></a><br/>
+<img src="./assets/matrix-dossier.svg" alt="Operator Dossier and System Telemetry" width="100%"/><br/>
+<img src="./assets/tech-arsenal.svg" alt="Tech Arsenal and Kernel Modules" width="100%"/><br/>
+<img src="./assets/missions-grid.svg" alt="Flagship Constructs and Deployed Programs" width="100%"/><br/>
+<a href="https://github.com/el3ch"><img src="https://github-readme-activity-graph.vercel.app/graph?username=el3ch&bg_color=020804&color=00FF41&line=00FF41&point=7CFFB2&area=true&area_color=008F11&hide_border=true&custom_title=04%20%2F%2F%20ZION%20MAINFRAME%20COMMIT%20PULSE" alt="Commit Activity Graph" width="100%"/></a><br/>
+<img src="./assets/credentials-loadout.svg" alt="Education, IEEE and Cognitive Loadout" width="100%"/><br/>
+<img src="./assets/footer-terminal.svg" alt="Zion Mainframe Terminal Sign-Off" width="100%"/>
 
-<br/>
-
-```text
-root@el3ch:~$ cat /etc/whoami.txt
-```
-
-Software Engineering student at **ESPRIT** (Tunis, Tunisia) passionate about **systems programming**, **offline-first architectures**, and **intelligent software**. I bridge low-level engineering (**C**, **Win32 API**, **Linux**) with modern product development (**Flutter**, **Supabase**, **SQLite**, **Python**).
-
-Rather than just learning syntax, I focus on building resilient software from the ground up.
-
-<div align="center">
-  <img src="assets/matrix-divider.svg" alt="Matrix Divider" width="100%" />
-</div>
-
-### `> ls -la ~/flagship_projects/`
-
-#### 01. **SynkroTask** — Offline-First Task Architecture `Aug 2026 – Oct 2026`
-`Flutter` · `Supabase` · `SQLite` · `PostgreSQL`
-- Cross-platform task management built on a production-grade **offline-first architecture**.
-- Engineered a local **SQLite** cache with an atomic pending-writes queue and bidirectional background delta synchronization against **Supabase**.
-- Hardened multi-tenant privacy with **PostgreSQL Row-Level Security (RLS)** policies, `SECURITY DEFINER` RPCs, client-side session invalidation, and atomic cache purging to eliminate cross-account data leakage.
-- Validated reliability through **40+ automated unit & integration tests** and released native Android builds ([`SynkroTask-downloads`](https://github.com/el3ch/SynkroTask-downloads)).
-
-#### 02. **PulseForge** — High-Precision Windows Utility `Jun 2026 – Jul 2026`
-`Python` · `Win32 API` · `CustomTkinter`
-- High-performance, sub-millisecond Windows input automation utility for precision peripherals.
-- Interfaced with native Windows OS subsystems via low-level hooks (`WH_MOUSE_LL`, `WH_KEYBOARD_LL`) and `timeBeginPeriod(1)` multimedia timer resolution for stable **1–60 CPS** execution with zero CPU drift.
-- Built hardware burst-fire detection calibrated for multi-button gaming mice, global emergency kill-switch (`F12`), system tray minimization, and Defender-safe packaging.
-
-#### 03. **CyberPunks** — 2D Matrix Combat Engine `Feb 2025 – Jun 2026` · *ESPRIT*
-`C` · `SDL2` · `Linux`
-- Designed and implemented a 2-player 2D fighting game in pure **C** using **SDL2** without external game engines.
-- Built a custom game loop, combat state machines, sprite-sheet animation systems, and bounding-box collision detection.
-- Managed dynamic memory allocation and resource cleanup to guarantee zero memory leaks.
-
-<div align="center">
-  <img src="assets/matrix-divider.svg" alt="Matrix Divider" width="100%" />
-</div>
-
-### `> cat /var/log/education_and_credentials.log`
-
-| Timeline | Node | Details |
-| :--- | :--- | :--- |
-| **Sep 2025 – May 2030** | **ESPRIT** | Engineer's Degree, IT (`Software Engineering`) |
-| **Active** | **IEEE Student Member** | Exploring **LLMs**, **Prompt Engineering**, and **RAG** |
-| **Certified** | **Neuro-Linguistic Programming (NLP)** | International **Level 4 Certification** — analytical & communication mastery |
-
-<div align="center">
-  <img src="assets/matrix-divider.svg" alt="Matrix Divider" width="100%" />
-</div>
-
-### `> ./list_arsenal.sh`
-
-**Languages**  
-![C](https://img.shields.io/badge/C-020804?style=for-the-badge&logo=c&logoColor=00FF41)
-![Python](https://img.shields.io/badge/Python-020804?style=for-the-badge&logo=python&logoColor=00FF41)
-![Dart](https://img.shields.io/badge/Dart-020804?style=for-the-badge&logo=dart&logoColor=00FF41)
-![SQL](https://img.shields.io/badge/SQL-020804?style=for-the-badge&logo=postgresql&logoColor=00FF41)
-
-**Frameworks & Engines**  
-![Flutter](https://img.shields.io/badge/Flutter-020804?style=for-the-badge&logo=flutter&logoColor=00FF41)
-![SDL2](https://img.shields.io/badge/SDL2-020804?style=for-the-badge&logo=c&logoColor=00FF41)
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-020804?style=for-the-badge&logo=python&logoColor=00FF41)
-
-**Data & Backend**  
-![Supabase](https://img.shields.io/badge/Supabase-020804?style=for-the-badge&logo=supabase&logoColor=00FF41)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL_RLS-020804?style=for-the-badge&logo=postgresql&logoColor=00FF41)
-![SQLite](https://img.shields.io/badge/SQLite-020804?style=for-the-badge&logo=sqlite&logoColor=00FF41)
-
-**Systems & Architecture**  
-![Linux](https://img.shields.io/badge/Linux-020804?style=for-the-badge&logo=linux&logoColor=00FF41)
-![Win32 API](https://img.shields.io/badge/Win32_API-020804?style=for-the-badge&logo=windows&logoColor=00FF41)
-![Git](https://img.shields.io/badge/Git-020804?style=for-the-badge&logo=git&logoColor=00FF41)
-![GitHub](https://img.shields.io/badge/GitHub-020804?style=for-the-badge&logo=github&logoColor=00FF41)
-
-<div align="center">
-  <img src="assets/matrix-divider.svg" alt="Matrix Divider" width="100%" />
-</div>
-
-### `> ./establish_uplink.sh`
-
-Always open to discussing **software engineering**, **systems design**, and **internship opportunities**.
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/mohamed-amine-el-euch-86b294321/">
-    <img src="https://img.shields.io/badge/LinkedIn-Mohamed_Amine_El_Euch-020804?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn" />
-  </a>
-  <a href="mailto:mohamedamine.eleuch@gmail.com">
-    <img src="https://img.shields.io/badge/Email-mohamedamine.eleuch@gmail.com-020804?style=for-the-badge&logo=gmail&logoColor=00FF41" alt="Email" />
-  </a>
-  <a href="https://github.com/el3ch">
-    <img src="https://img.shields.io/badge/GitHub-el3ch-020804?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub" />
-  </a>
+<p>
+  <img src="https://komarev.com/ghpvc/?username=el3ch&label=MATRIX+UPLINKS&color=008F11&style=for-the-badge" alt="Profile Views"/>
+  <a href="https://www.linkedin.com/in/mohamed-amine-el-euch-86b294321/"><img src="https://img.shields.io/badge/LINKEDIN-EL_EUCH-020804?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn"/></a>
+  <a href="mailto:mohamedamine.eleuch@gmail.com"><img src="https://img.shields.io/badge/EMAIL-UPLINK-020804?style=for-the-badge&logo=gmail&logoColor=00FF41" alt="Email"/></a>
+  <a href="https://github.com/el3ch/SynkroTask-downloads"><img src="https://img.shields.io/badge/SYNKROTASK-APK-020804?style=for-the-badge&logo=android&logoColor=00FF41" alt="SynkroTask APK"/></a>
+  <a href="https://github.com/el3ch?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-00FF41?style=for-the-badge&logo=git&logoColor=020804" alt="All Repositories"/></a>
 </p>
 
-<div align="center">
-  <sub><code>&gt; "There is no spoon. Only clean architecture."</code></sub>
+<a href="https://github.com/el3ch">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=el3ch&hide_border=true&background=020804&stroke=00FF41&ring=00FF41&fire=7CFFB2&currStreakNum=00FF41&sideNums=7CFFB2&currStreakLabel=7CFFB2&sideLabels=00FF41&dates=4ADE80" alt="GitHub Streak Stats"/>
+</a>
 </div>
